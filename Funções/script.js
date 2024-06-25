@@ -4,7 +4,7 @@
 // área do quadrado: lado²
 // área do trapézio: (base maior + base menor) * altura / 2
 // área do círculo: pi * raio² (considere pi = 3.14)
-// Você deve escrever o programa usando funções sempre que possível para separar os procedimentos. O programa também deve ter uma opção de “Sair” e enquanto ela não for escolhida deverá voltar ao menu.
+// Você deve escrever o programa usando funções sempre que possível para separar os procedimentos. O programa também deve ter uma opção de “Sair” e enquanto ela não for escolhida deverá voltar ao menu
 
 //1= Essas 5 primeiras funções calculam a área de todas as formas geométricas citadas na apresentação do exercício, todas retornando os valores corretos de acordo com a fórmula para calcular.
 
