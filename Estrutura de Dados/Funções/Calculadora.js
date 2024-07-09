@@ -95,3 +95,5 @@ function executar() {
     }
   } while (opcoes !== "6");
 }
+
+executar();
