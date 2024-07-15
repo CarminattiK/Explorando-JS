@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./Escalação.js"></script>
+    <title>Revisão</title>
+  </head>
+
+  <body>
+    <!-- Abaixo, criei todo o esqueleto da minha página para a resolução do exercício. Embora não tenha ficado completamente igual à resolução do professor, deu certo. A proposta do exercício eu coloquei como comentário no meu script. -->
+    <h1>Exercício sobre DOM</h1>
+    <h2>Escalar Jogador</h2>
+    <div>
+      <label for="position">Posição do jogador:</label>
+      <input type="text" id="position-player" />
+      <label for="name">Nome do jogador:</label>
+      <input type="text" id="name-player" />
+      <label for="number">Número do Camisa:</label>
+      <input type="number" id="number-player" />
+      <button onclick="add()">Escalar</button>
+    </div>
+    <h2>Remover Jogador</h2>
+    <div>
+      <label for="numberForRemove">Número da Camisa:</label>
+      <input type="number" id="numberForRemove" />
+      <button onclick="remove()">Remover</button>
+    </div>
+    <h2>Time:</h2>
+    <ul id="team"></ul>
+  </body>
+</html>
