@@ -1,12 +1,12 @@
-// Escreva um programa em javascript para calcular a área de diferentes formas geométricas. O programa deve iniciar com um menu contendo as diferentes opções de cálculos. As opções devem ser:
+/* Escreva um programa em javascript para calcular a área de diferentes formas geométricas. O programa deve iniciar com um menu contendo as diferentes opções de cálculos. As opções devem ser: */
 // área do triângulo: base * altura / 2
 // área do retângulo: base * altura
 // área do quadrado: lado²
 // área do trapézio: (base maior + base menor) * altura / 2
 // área do círculo: pi * raio² (considere pi = 3.14)
-// Você deve escrever o programa usando funções sempre que possível para separar os procedimentos. O programa também deve ter uma opção de “Sair” e enquanto ela não for escolhida deverá voltar ao menu
+/* Você deve escrever o programa usando funções sempre que possível para separar os procedimentos. O programa também deve ter uma opção de “Sair” e enquanto ela não for escolhida deverá voltar ao menu */
 
-//1= Essas 5 primeiras funções calculam a área de todas as formas geométricas citadas na apresentação do exercício, todas retornando os valores corretos de acordo com a fórmula para calcular.
+/* 1- Essas 5 primeiras funções calculam a área de todas as formas geométricas citadas na apresentação do exercício, todas retornando os valores corretos de acordo com a fórmula para calcular. */
 
 function calculoTriangulo() {
   const base = parseFloat(prompt("Informe a base do Triângulo"));
@@ -36,7 +36,7 @@ function calculoCirculo() {
   return 3.14 * raio * raio;
 }
 
-//2- Essa função exibe o menu para que o usuário possa escolher qual área ele deseja calcular.
+/* 2- Essa função exibe o menu para que o usuário possa escolher qual área ele deseja calcular. */
 function exibicaoMenu() {
   return prompt(`Isto é uma calculadora geométrica, escolha alguma das opções abaixo 
     
@@ -48,7 +48,7 @@ function exibicaoMenu() {
     6- Sair`);
 }
 
-//3- Essa função controla o fluxo do programa, através do laço de repetição DO WHILE, para que seja exibido o menu interativo. Caso o usuário escolha a opção 6 (SAIR), o programa encerra. Caso contrário, o resultado da área é exibido através da estrutura condicional IF.
+/* 3- Essa função controla o fluxo do programa, através do laço de repetição DO WHILE, para que seja exibido o menu interativo. Caso o usuário escolha a opção 6 (SAIR), o programa encerra. Caso contrário, o resultado da área é exibido através da estrutura condicional IF. */
 function executar() {
   let opcoes;
 
