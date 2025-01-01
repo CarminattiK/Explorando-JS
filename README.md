@@ -6,9 +6,9 @@ Este espaço não é apenas para registrar meu progresso, mas também para compa
 
 
 O que você encontrará aqui? 💡
-🛠️ Soluções de desafios práticos: Exercícios variados para consolidar conceitos e explorar novas formas de programar.
-✏️ Comentários detalhados no código: Explicações linha a linha para facilitar a compreensão.
-📈 Evolução constante: Novos conteúdos e soluções serão adicionados regularmente.
+- 🛠️ Soluções de desafios práticos: Exercícios variados para consolidar conceitos e explorar novas formas de programar.
+- ✏️ Comentários detalhados no código: Explicações linha a linha para facilitar a compreensão.
+- 📈 Evolução constante: Novos conteúdos e soluções serão adicionados regularmente.
 
 
 Por que este repositório? 🤔
