@@ -7,7 +7,7 @@ Todos os resultados devem ser armazenados em uma variável do tipo string e, ao 
 alert(`Olá, usuário! Eu robô da tabuada!`);
 
 // 1 - Solicita ao usuário o número base para a tabuada
-let n = parseFloat(
+const n = parseFloat(
   prompt(`Por favor, informe o número que você deseja saber a tabuada: `)
 );
 
