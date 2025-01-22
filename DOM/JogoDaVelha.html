@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JogoDaVelha.css">
+    <script src="JogoDaVelha.js" defer></script>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <label for="jogador1">X</label>
+    <input type="text" id="jogador1" placeholder="Nome do Jogador 1">
+    <label for="jogador2">O</label>
+    <input type="text" id="jogador2" placeholder="Nome do Jogador 2">
+    <button id="comecar">Começar</button>
+    <h2>Vez de: <span id="jogador"></span></h2>
+    <section id="tabuleiro">
+        <span class="cursor-pointer" data-regiao="0.0"></span>
+        <span class="cursor-pointer" data-regiao="0.1"></span>
+        <span class="cursor-pointer" data-regiao="0.2"></span>
+        <span class="cursor-pointer" data-regiao="1.0"></span>
+        <span class="cursor-pointer" data-regiao="1.1"></span>
+        <span class="cursor-pointer" data-regiao="1.2"></span>
+        <span class="cursor-pointer" data-regiao="2.0"></span>
+        <span class="cursor-pointer" data-regiao="2.1"></span>
+        <span class="cursor-pointer" data-regiao="2.2"></span>
+    </section>
+</body>
+</html>
